@@ -1,0 +1,66 @@
+qinhuhy zh871022
+------------
+	-----安装git
+	E:\Git
+-1-------创建本地ssh
+ $ ssh-keygen -t rsa -C "947213515@qq.com"
+ 然后连续点击三下生成无密码的ssh，生成文件的路径为 C:\Users\zh\.ssh，此文件夹下有两个文件，复制id_rsa.pub中的所有内容到github的ssh中
+0.-------查看ssh是否已连接到github
+ $ ssh -T git@github.com
+1.-------配置本地账户密码
+ $ git config --global user.name "ronaldozh"
+ $ git config --global user.email "947213515@qq.com" 
+2.-------添加远程地址
+ $ git remote add origin git@github.com:ronaldozh/xkjs.git
+3.-------将本地文件提交到github中（及删除github上的文件）
+ $ git add file-------添加文件（需写后缀）及文件夹
+ $ git commit -m "first commit"-------添加文件提交到本地仓库（双引号为此次提交的说明）
+ $ git push -u origin master-------提交此次添加的文件到github(必须是本地已提交的)
+ $ git rm file -r -------删除文件夹（-r为循环文件夹，工作空间删除）
+ $ git commit -m "delete"-------提交(本地仓库删除)
+ $ git push -u origin master-------删除了github上的文件
+
+------------------------------------------------------------------------------------
+	-------查看状态
+	git status -- readme.txt
+	-------查看工作区和版本库里面最新版本的区别：
+	git diff HEAD -- readme.txt
+	-------把readme.txt文件在工作区的修改全部撤销
+	git checkout -- readme.txt
+	-------从github上更新数据
+	git pull
+	-------github与本地仓库进行合并
+	git merge origin/master
+	
+----Git错误non-fast-forward后的冲突解决 ----------------------
+https://my.oschina.net/uniquejava/blog/165140
+	$ git fetch   $ git merge   这2句命令等价于$ git pull
+---------------------------------------------------------------
+-----myeclipse上传出现cannot open Git-receive-pack错误时--------------------------
+http://blog.csdn.net/haizhu668/article/details/17347577
+-------------------------------------------------------------
+
+	
+------------------------------------------------------------------------------------
+http://www.mamicode.com/info-detail-928508.html	(在MyEclipse（2015）中上传项目到github的步骤)(注意:myeclipse内的提交时提交和更新都是操作本地库，还需要从git上进行commit与pull)
+1.导入方法（不是唯一），首先将ssh加入到github中，用myeclipse进行下载（import），下载后，删除myeclipse的项目(因为有仓库名),但不要选择从磁盘上删除，然后再impot 从导入的库中选择相应的项目
+
+提交文件前需要pull,如果文件有冲突，则会提示提交文件冲突，此时提交冲突文件（只需commit无需commit and push）,然后再pull,则冲突文件会有红色标记，手动点开文件修改，然后进入冲突文件team、add to index ,然后再commit and push
+------------------------------------------------------------------------------------
+        -------从github上下载项目
+	--首先，进入要下载的项目，并单击fork。
+	--然后执行
+	git clone git@github.com/ronaldozh/Hello-World.git
+	--为了保持代码的同步，可以进入目录，执行如下的操作：
+	git remote add upstream git@github.com/username/JavaDemo.git
+
+
+---------------------------------------------------github的操作-----------------------------------------
+删除一个仓库  http://www.cnblogs.com/forget406/p/6045213.html
+
+-------------------------------------------------------------myeclipse的github操作------------------
+http://www.cnblogs.com/fdzfd/p/6970978.html
+http://www.cnblogs.com/vinphy/p/5289708.html
+-------------------------------------------------------------------------------------------
+
+		
