@@ -1,7 +1,7 @@
 
 qinhuhy zh871022
 ------------
-	-----安装git
+	-----安装git33
 	E:\Git
 -1-------创建本地ssh
  $ ssh-keygen -t rsa -C "947213515@qq.com"
