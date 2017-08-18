@@ -32,7 +32,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 		3.5.4.1 git rm –r 进入某个目录中，执行此语句，会删除该目录下的所有文件和子目录
  3.6 git commit -m "first commit"-------添加文件提交到本地仓库（双引号为此次提交的说明）
  3.7 git push -u origin master-------提交此次添加的文件到github(必须是本地已提交的)
- 	3.7.1 -u说明：将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数，直接使用git push了
+ 	3.7.1 -u说明：将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数，直接使用git push origin master了
  3.8 在提交前先更新一下：git pull（此git pull无论在本地仓库文件夹的任何地方更新的都是整个仓库，例如只要进入本地javaAll更新即可）
  PS:（1）时光穿梭机：退回版本：git reset --hard HEAD^，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
     （2）去指定版本：git reflog后最左边的号，git reset --hard 3628164，这样就返回到相应的版本号了
