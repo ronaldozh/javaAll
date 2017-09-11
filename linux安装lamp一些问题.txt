@@ -1,0 +1,26 @@
+
+ --------------------------------------------------卸载mysql-------------
+http://blog.csdn.net/tjcyjd/article/details/52189182
+CentOS7下解决yum install mysql-server没有可用包的问题 
+ http://blog.csdn.net/aizhiqiang2/article/details/51685308
+  zabbix（一）zabbix环境的搭建
+  xiaoluoge.blog.51cto.com/9141967/1627672/
+  
+  ----------------查看是否已安装mysql-------------
+  http://blog.csdn.net/jinyeweiyang/article/details/7898176
+  
+  1.启动mysql
+service mysqld start
+停止：
+service mysqld stop
+默认账号mysql,密码为空
+重启：
+service mysqld restart
+通过这个命令来设置密码：
+mysqladmin -u root password '******'   
+  
+
+登录
+mysql -uzabbix -pzabbix
+
+
