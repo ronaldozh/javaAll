@@ -9,6 +9,20 @@ CentOS7下解决yum install mysql-server没有可用包的问题
   -------------安装apache-----
   http://blog.csdn.net/yonggang7/article/details/22607721
   You need a C++ compiler for C++ support,解决方法：yum install -y gcc gcc-c++
+  ------安装php------------
+  1.下载libxml2-2.8.0.tar.gz及解压
+  2.  #cd libxml2-2.8.0    
+      #./configure --prefix=/home/zhaoheng/libxml2
+      #make
+      #make install
+  3.下载php及解压
+      # cd php-5.4.3/
+      #./configure --prefix=/home/zhaoheng/php --with-apxs2=/home/zhaoheng/apache/bin/apxs --with-mysql --with-libxml-dir=/home/zhaoheng/libxml2
+      #make
+      #make install
+   ---------------------卸载php---------------------
+   http://blog.csdn.net/21aspnet/article/details/6581618
+      
   
   
   ----------------查看是否已安装mysql-------------
