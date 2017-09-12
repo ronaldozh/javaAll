@@ -26,6 +26,8 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    http://www.jb51.net/article/97516.htm
    ----------------卸载apache---------------
    http://www.cnblogs.com/w10234/p/6649040.html
+   ---------------------------------------------LAMP安装-----------------------------------------------
+   http://www.cnblogs.com/apro-abra/p/4862285.html
       
   
   
