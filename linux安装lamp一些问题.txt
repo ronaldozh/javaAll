@@ -1,26 +1,28 @@
 
- --------------------------------------------------Ğ¶ÔØmysql-------------
+ --------------------------------------------------å¸è½½mysql-------------
 http://blog.csdn.net/tjcyjd/article/details/52189182
-CentOS7ÏÂ½â¾öyum install mysql-serverÃ»ÓĞ¿ÉÓÃ°üµÄÎÊÌâ 
+CentOS7ä¸‹è§£å†³yum install mysql-serveræ²¡æœ‰å¯ç”¨åŒ…çš„é—®é¢˜ 
  http://blog.csdn.net/aizhiqiang2/article/details/51685308
-  zabbix£¨Ò»£©zabbix»·¾³µÄ´î½¨
+  zabbixï¼ˆä¸€ï¼‰zabbixç¯å¢ƒçš„æ­å»º
   xiaoluoge.blog.51cto.com/9141967/1627672/
   
-  ----------------²é¿´ÊÇ·ñÒÑ°²×°mysql-------------
+  ----------------æŸ¥çœ‹æ˜¯å¦å·²å®‰è£…mysql-------------
   http://blog.csdn.net/jinyeweiyang/article/details/7898176
+  -----------------------ç¼–è¯‘å®‰è£…zabbix_serverçš„æ—¶å€™æŠ¥configure: error: MySQL library not foundé”™è¯¯--------------
+  æ²¡æœ‰å®‰è£…mysql-develï¼šyum install mysql-devel 
   
-  1.Æô¶¯mysql
+  1.å¯åŠ¨mysql
 service mysqld start
-Í£Ö¹£º
+åœæ­¢ï¼š
 service mysqld stop
-Ä¬ÈÏÕËºÅmysql,ÃÜÂëÎª¿Õ
-ÖØÆô£º
+é»˜è®¤è´¦å·mysql,å¯†ç ä¸ºç©º
+é‡å¯ï¼š
 service mysqld restart
-Í¨¹ıÕâ¸öÃüÁîÀ´ÉèÖÃÃÜÂë£º
+é€šè¿‡è¿™ä¸ªå‘½ä»¤æ¥è®¾ç½®å¯†ç ï¼š
 mysqladmin -u root password '******'   
   
 
-µÇÂ¼
+ç™»å½•
 mysql -uzabbix -pzabbix
 
 
