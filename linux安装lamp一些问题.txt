@@ -22,6 +22,10 @@ CentOS7下解决yum install mysql-server没有可用包的问题
       #make install
    ---------------------卸载php---------------------
    http://blog.csdn.net/21aspnet/article/details/6581618
+   --------------------卸载mysql----------------------
+   http://www.jb51.net/article/97516.htm
+   ----------------卸载apache---------------
+   http://www.cnblogs.com/w10234/p/6649040.html
       
   
   
