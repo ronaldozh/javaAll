@@ -5,7 +5,6 @@ CentOS7下解决yum install mysql-server没有可用包的问题
  http://blog.csdn.net/aizhiqiang2/article/details/51685308
   zabbix（一）zabbix环境的搭建
   xiaoluoge.blog.51cto.com/9141967/1627672/
-  --搭建过程中，编辑httpd.conf在这个文件夹下：/etc/httpd/conf，在DirectoryIndex index.html上增加index.php---删除
   -------------安装apache-----
   http://blog.csdn.net/yonggang7/article/details/22607721
   You need a C++ compiler for C++ support,解决方法：yum install -y gcc gcc-c++
@@ -39,6 +38,8 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    
    ----------------------------安装zabbix前需安装---------------------
    yum install mysql-devel，不安装这个会报configure: error: MySQL library not found错误
+   -----搭建第5步--------
+   --编辑httpd.conf在这个文件夹下：/etc/httpd/conf，在DirectoryIndex index.html上增加index.php
    -----搭建第9步------
    改为：即apache的实际页面访问路径
    [root@monitor frontends]#mkdir /var/www/html/zabbix
