@@ -31,6 +31,8 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    http://www.cnblogs.com/hwd-cnblogs/p/5213337.html
    ----------------主机无法访问虚拟机------------------
    http://blog.csdn.net/sudazf/article/details/50551822
+   ---关闭虚拟机防火墙
+   #systemctl stop firewalld.service 
    ------开启、停止、重启mysql、apache服务-------
     mysql:
       开启：service mysqld start
