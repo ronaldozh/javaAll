@@ -33,6 +33,12 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    
    ----------------------------安装zabbix前需安装---------------------
    yum install mysql-devel，不安装这个会报configure: error: MySQL library not found错误
+   -----搭建第9步------
+   改为：即apache的实际页面访问路径
+   mkdir /var/www/html/zabbix
+   cp -rf php /var/www/html/zabbix
+   chown -R  apache.apache /var/www/html/zabbix/
+
       
   
   
