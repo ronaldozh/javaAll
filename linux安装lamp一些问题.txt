@@ -64,6 +64,11 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    2.Install时出现created: Fail，则点击界面下方的download configuration file文夹进行下载
      #cd /var/www/html/zabbix/php/conf/ 在这个路径下进行文件上传rz,上传zabbix.conf.php，
      然后点击web页面的retry出现ok即可
+   3.完成安装进入访问页面会出现红色提示：
+     zabbix server is not running:the information displayed may not be
+     解决方法：
+     修改/etc/selinux/config文件中的SELINUX 为 disabled ，然后重启电脑，再次开启服务登录正常
+     http://www.cnblogs.com/rusking/p/4441362.html
      
   
   ----------------查看是否已安装mysql-------------
