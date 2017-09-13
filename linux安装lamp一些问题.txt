@@ -56,8 +56,15 @@ CentOS7下解决yum install mysql-server没有可用包的问题
    ------搭建第10步----------
    访问地址：虚拟机的ip
    http://192.168.220.128/zabbix/php
-      
-  
+   -----搭建11步----------
+   出现PHP bcmath fail，#yum install php-bcmath -y
+   
+   ------------------在web安装页面操作需注意的问题--------------------
+   1.database:zabbix,user:zabbix,password:zabbix
+   2.Install时出现created: Fail，则点击界面下方的download configuration file文夹进行下载
+     #cd /var/www/html/zabbix/php/conf/ 在这个路径下进行文件上传rz,上传zabbix.conf.php，
+     然后点击web页面的retry出现ok即可
+     
   
   ----------------查看是否已安装mysql-------------
   http://blog.csdn.net/jinyeweiyang/article/details/7898176
