@@ -72,6 +72,8 @@ CentOS7下解决yum install mysql-server没有可用包的问题
     ----------------------------------------navicat链接mysql------------------------------------------------ 
     cnetos7无iptables，安装
     http://blog.csdn.net/l1028386804/article/details/50779761
+    win下的navicat无法访问mysql
+    http://www.cnblogs.com/mengcode/p/6422764.html
      
   
   ----------------查看是否已安装mysql-------------
