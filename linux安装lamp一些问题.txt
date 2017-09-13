@@ -74,6 +74,10 @@ CentOS7下解决yum install mysql-server没有可用包的问题
     http://blog.csdn.net/l1028386804/article/details/50779761
     win下的navicat无法访问mysql
     http://www.cnblogs.com/mengcode/p/6422764.html
+    ----------------------------------------创建监视项目------------------------------
+    在客户端: # vi /usr/local/zabbix/etc/zabbix_agentd.conf
+    修改Server=192.168.220.128（服务器地址）
+    重启动agent: # /etc/init.d/zabbix_server restart
      
   
   ----------------查看是否已安装mysql-------------
