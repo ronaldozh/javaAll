@@ -69,6 +69,9 @@ CentOS7下解决yum install mysql-server没有可用包的问题
      解决方法：
      修改/etc/selinux/config文件中的SELINUX 为 disabled ，然后重启电脑，再次开启服务登录正常
      http://www.cnblogs.com/rusking/p/4441362.html
+    ----------------------------------------navicat链接mysql------------------------------------------------ 
+    cnetos7无iptables，安装
+    http://blog.csdn.net/l1028386804/article/details/50779761
      
   
   ----------------查看是否已安装mysql-------------
