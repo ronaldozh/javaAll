@@ -42,6 +42,11 @@ CentOS7下解决yum install mysql-server没有可用包的问题
       开启：systemctl start httpd.service
       停止：systemctl stop httpd.service
       重启：systemctl restart httpd.service
+      启动其他：
+      [root@monitor zabbix-2.2.2]# /etc/init.d/zabbix_server start
+      [root@monitor zabbix-2.2.2]# /etc/init.d/zabbix_agentd start
+      [root@monitor zabbix-2.2.2]# chkconfig zabbix_agentd on
+      [root@monitor zabbix-2.2.2]# chkconfig zabbix_server on
     
    
    ----------------------------安装zabbix前需安装---------------------
