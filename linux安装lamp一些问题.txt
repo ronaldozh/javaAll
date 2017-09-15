@@ -85,7 +85,15 @@ CentOS7下解决yum install mysql-server没有可用包的问题
     重启动agent: # /etc/init.d/zabbix_server restart
     1.监视mysql:与提供的模板连用
     http://www.cnblogs.com/yinzhengjie/p/6234497.html
-     
+    2.linux向外发送邮件配置
+     2.1 vim /etc/mail.rc  文件加入下面几句话
+
+      set from=jiong210@163.com smtp=smtp.163.com
+
+      set smtp-auth-user=jiong210  smtp-auth-password='此为邮箱的授权密码，需要自己在邮箱设置中设置'
+      set smtp-auth=login
+     2.2执行下面语句发送： echo "test3" |mail -s "test"    243@qq.com    // "test3"指的是文件内容，test标题 
+      
   
   ----------------查看是否已安装mysql-------------
   http://blog.csdn.net/jinyeweiyang/article/details/7898176
