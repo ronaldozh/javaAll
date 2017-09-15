@@ -93,6 +93,9 @@ CentOS7下解决yum install mysql-server没有可用包的问题
       set smtp-auth-user=jiong210  smtp-auth-password='此为邮箱的授权密码，需要自己在邮箱设置中设置'
       set smtp-auth=login
      2.2执行下面语句发送： echo "test3" |mail -s "test"    243@qq.com    // "test3"指的是文件内容，test标题 
+     ------若无法发送则参考如下配置---
+     http://www.mamicode.com/info-detail-1793751.html
+     http://www.jb51.net/article/101398.htm
       
   
   ----------------查看是否已安装mysql-------------
