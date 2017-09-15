@@ -96,6 +96,9 @@ CentOS7下解决yum install mysql-server没有可用包的问题
      ------若无法发送则参考如下配置---
      http://www.mamicode.com/info-detail-1793751.html
      http://www.jb51.net/article/101398.htm
+   3.创建actions
+   http://www.osyunwei.com/archives/8113.html
+    保存operations时先点击上面的add，否则保存会报错
       
   
   ----------------查看是否已安装mysql-------------
