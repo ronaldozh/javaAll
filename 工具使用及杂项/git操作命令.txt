@@ -25,7 +25,7 @@ http://www.cnblogs.com/videring/articles/6962005.html
  3.1 先手动建立一个空文件emptyFile夹或者（mkdir yafeng）
  3.2 手动进入空文件或者（cd emptyFile/）
  3.3 手动查看文件夹内容或者（ls）,初始化为git仓库：git init
- 3.4 克隆github上的仓库到本地仓库：git clone git@github.com/ronaldozh/javaAll.git
+ 3.4 克隆github上的仓库到本地仓库：git clone https://github.com/ronaldozh/ronaldozh.github.io.git（此https为打开项目时右上角的下载地址）
  3.5 修改clone下来的项目，然后在修改目录当前
  	3.5.1 git add a.html-------添加当前目录下的文件（需写后缀）及文件夹,
  	3.5.2 git add * git会自动把你当前目录所有修改过的文件添加
