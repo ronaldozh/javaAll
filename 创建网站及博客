@@ -5,3 +5,7 @@
     安装Jekyll:
     http://www.jianshu.com/p/27de87d4447e
     最后需要执行gem install jekyll-paginate
+    解决本地jekyll中文乱码
+        1.http://blog.csdn.net/yinaoxiong/article/details/54025482
+        2.将notepadd++格式调成 UTF-8无BOM
+    
