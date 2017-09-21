@@ -9,4 +9,6 @@
     解决本地jekyll中文乱码
         1.http://blog.csdn.net/yinaoxiong/article/details/54025482
         2.将notepadd++格式调成 UTF-8无BOM
+    jekyll基本架构解释
+    http://justcoding.iteye.com/blog/1959737
     
