@@ -11,4 +11,10 @@
         2.将notepadd++格式调成 UTF-8无BOM
     jekyll基本架构解释
     http://justcoding.iteye.com/blog/1959737
+
+    本地搭建jekyll好后，运行jekyll
+    1.打开cmd,用cd进入站点文件夹:
+      cd /d d:\javasoft\rubyDevkit\myblog\ronaldozh.github.io
+    2.开启jekyll服务 jekyll server
+    3.localhost:4000访问
     
